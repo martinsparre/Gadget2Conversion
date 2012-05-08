@@ -5,17 +5,13 @@ Convert between ascii and gadget2 files.
 
 
 
-
-
-
-
--- How to compile the programs --
+How to compile the programs 
 =================
 
-gcc AsciiToGadget.c -o AsciiToGadget
-gcc GadgetToAscii.c -o GadgetToAscii
+    gcc AsciiToGadget.c -o AsciiToGadget
+    gcc GadgetToAscii.c -o GadgetToAscii
 
--- How to use them --
+How to use them 
 =================
 
 Create an ascii file:
@@ -35,7 +31,7 @@ Check that the two text-files are identical:
     $diff Hernquist100000_000.txt NewText.txt
 
 
--- The Ascii format --
+The Ascii format 
 =================
 
 First the number of particles are written. Then "x y z vx vy vz m ID V" for each particle. An Example
