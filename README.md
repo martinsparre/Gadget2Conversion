@@ -36,7 +36,7 @@ The Ascii format
 
 First the number of particles are written. Then "x y z vx vy vz m ID V" for each particle. An Example
 
-    $head NewText.txt 
+    head NewText.txt 
     100000
     -5.31154108	-5.7146945	-5.499882698	0.05753127486	0.005806070752	0.05357303098	8.263792552E-06	83417	-0.08647640795
     -5.113169193	-5.289948463	-5.168134689	-0.04419142008	-0.07203647494	0.01301814336	8.263792552E-06	45946	-0.09168834239
