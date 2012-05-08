@@ -19,9 +19,11 @@ gcc GadgetToAscii.c -o GadgetToAscii
 =================
 
 Create an ascii file:
+'''
 $./GadgetToAscii Hernquist100000_000 Hernquist100000_000.txt
-
+'''
 Convert back to Gadget2:
+
 $./AsciiToGadget Hernquist100000_000.txt NewGadget.bin
 
 Convert back to text
